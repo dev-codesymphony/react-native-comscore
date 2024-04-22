@@ -21,9 +21,6 @@
   },
   "homepage": "https://github.com/dev-codesymphony/react-native-comscore/react-native-comscore#readme",
   "peerDependencies": {
-    "@react-navigation/native": "^6.1.17",
-    "@react-navigation/stack": "^6.3.29",
-    "react": "18.2.0",
     "react-native": "0.72.6"
   },
   "devDependencies": {
