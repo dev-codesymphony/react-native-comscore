@@ -2,7 +2,7 @@
   "compilerOptions": {
     "rootDir": ".",
     "paths": {
-      "react-native-comscore": ["./src/index"]
+      "react-native-comscore": ["."]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,

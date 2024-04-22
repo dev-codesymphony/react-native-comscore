@@ -1,11 +1,11 @@
-declare module 'comscore-react-native' {
+declare module "react-native-comscore" {
   /**
    * Enum representing the auto-update modes for usage properties.
    */
   export enum UsagePropertiesAutoUpdateMode {
-    FOREGROUND_ONLY = 'FOREGROUND_ONLY', // Update usage properties only when the app is in the foreground.
-    FOREGROUND_AND_BACKGROUND = 'FOREGROUND_AND_BACKGROUND', // Update usage properties when the app is in the foreground and background.
-    DISABLED = 'DISABLED', // Disable auto-update of usage properties.
+    FOREGROUND_ONLY = "FOREGROUND_ONLY", // Update usage properties only when the app is in the foreground.
+    FOREGROUND_AND_BACKGROUND = "FOREGROUND_AND_BACKGROUND", // Update usage properties when the app is in the foreground and background.
+    DISABLED = "DISABLED", // Disable auto-update of usage properties.
   }
 
   /**
