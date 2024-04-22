@@ -4,6 +4,10 @@
   "description": "react-native-comscore is a React Native package designed to seamlessly integrate ComScore analytics into your React Native applications. ComScore provides valuable insights into user behavior and engagement, allowing you to make informed decisions to improve your app's performance and user experience.",
   "main": "index.js",
   "typings": "index.d.ts",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write ."
+  },
   "keywords": [
     "react-native",
     "comscore",
@@ -31,6 +35,8 @@
     "react-native": "0.72.6"
   },
   "devDependencies": {
+    "prettier": "^3.2.4",
+    "prettier-plugin-java": "^2.6.0",
     "react-native": "0.73.7",
     "typescript": "^5.2.2"
   },
