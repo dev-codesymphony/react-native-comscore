@@ -31,6 +31,9 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
+  "resolutions": {
+    "@types/react": "^18.2.44"
+  },
   "peerDependencies": {
     "react-native": "0.72.6"
   },
